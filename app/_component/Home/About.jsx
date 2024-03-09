@@ -60,8 +60,6 @@ export default function BannerAbout() {
       </svg>
       <div className="mx-auto max-w-5xl px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:py-40 lg:px-8">
         <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl z-30 ">
-      
-
           {/* <div className="mt-10 sm:mt-12 lg:mt-16"></div> */}
           <h1 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">
             About Us
