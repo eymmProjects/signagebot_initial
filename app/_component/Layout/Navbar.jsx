@@ -11,10 +11,10 @@ import { IoClose } from "react-icons/io5";
 import Logo from "../../../public/Images/Logo_white.png";
 
 const navigation = [
-  { name: "Products", href: "/products" },
-  { name: "Technology", href: "/technology" },
-  { name: "Portfolio", href: "/portfolio" },
-  { name: "Blog", href: "/blog" },
+  { name: "Products", href: "/" },
+  { name: "Technology", href: "/" },
+  { name: "Portfolio", href: "/" },
+  { name: "Blog", href: "/" },
 ];
 
 function classNames(...classes) {
@@ -157,7 +157,7 @@ const Navbar = ({ className }) => {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
-                        href="/about"
+                        href="/"
                         className={classNames(
                           active ? "bg-gray-300" : "bg-brand_black",
                           "block px-4 py-2 text-sm text-gray-200  hover:text-black"
@@ -170,7 +170,7 @@ const Navbar = ({ className }) => {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
-                        href="/blog"
+                        href="/"
                         className={classNames(
                           active ? "bg-gray-300" : "bg-brand_black",
                           "block px-4 py-2 text-sm text-gray-200 hover:text-black"
@@ -183,7 +183,7 @@ const Navbar = ({ className }) => {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
-                        href="/career"
+                        href="/"
                         className={classNames(
                           active ? "bg-gray-300" : "bg-brand_black",
                           "block px-4 py-2 text-sm text-gray-200 hover:text-black"
