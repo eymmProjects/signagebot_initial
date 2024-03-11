@@ -10,37 +10,37 @@ const features = [
   {
     name: "AI",
     description:
-      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+      "Unlock the future of efficiency and innovation with our state-of-the-art AI solutions. Dive into stories of how artificial intelligence is not just a buzzword but a transformative force, driving businesses forward with predictive analytics, machine learning, and smart automation.",
     icon: CloudArrowUpIcon,
   },
   {
     name: " Education",
     description:
-      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
+      "Discover how our digital solutions are reinventing learning environments. From interactive whiteboards to customized learning platforms, we're enhancing engagement and empowering educators and students with technology that adapts to every unique educational need.",
     icon: LockClosedIcon,
   },
   {
     name: "Dynamic",
     description:
-      "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
+      "Step into the world of dynamic digital solutions, where adaptability meets precision. Explore case studies showcasing how flexible, real-time responsive technology has revolutionized customer experiences and operational agility in ever-changing markets.",
     icon: ArrowPathIcon,
   },
   {
     name: "Intelligent",
     description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+      "Intelligence goes beyond data processing. It's about making smart decisions. Our intelligent systems learn from patterns to improve workflows, automate complex processes, and elevate your business intelligence to new heights.",
     icon: FingerPrintIcon,
   },
   {
     name: "Displays in retail",
     description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+      "Reimagine the retail experience with our immersive digital displays. See how businesses are capturing attention and driving sales with stunning visuals and interactive screens that bring products to life and make shopping a memorable event.",
     icon: FingerPrintIcon,
   },
   {
     name: "Healthcare",
     description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+      "Healthcare is personal, and so is our technology. Delve into success stories where our tailored healthcare displays have improved patient engagement, streamlined care delivery, and supported medical professionals in their mission to heal.",
     icon: FingerPrintIcon,
   },
 ];

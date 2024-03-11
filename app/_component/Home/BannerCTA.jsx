@@ -32,7 +32,7 @@ const BannerCTA = ({ className }) => {
           </div>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Link
-              href="#"
+              href="/"
               className="rounded-full bg-brand_blue px-6 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-brand_blue/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-brand_blue"
             >
               {"Let's start"}
@@ -40,13 +40,7 @@ const BannerCTA = ({ className }) => {
                 ›
               </span>
             </Link>
-            {/* <Link
-              href="#"
-              className="rounded-full border border-solid px-6 py-1.5 text-base font-semibold leading-7 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              <span className="text-2xl" aria-hidden="true"></span>
-              Download
-            </Link> */}
+       
           </div>
         </div>
       </div>

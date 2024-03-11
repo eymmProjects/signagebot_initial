@@ -52,7 +52,10 @@ const HeroSection = () => {
               <div className="hidden mt-5 sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative rounded-full bg-gray-800 py-1 px-3 text-sm leading-6 text-white-600 0 hover:ring-gray-900/20">
                   Welcome to the Future with SignageBot.com
-                  <Link href="#" className="font-semibold text-white-600">
+                  <Link
+                    href="http://www.signagebot.com"
+                    className="font-semibold text-white-600"
+                  >
                     <span className="text-xl ml-2" aria-hidden="true">
                       ›
                     </span>
@@ -72,7 +75,7 @@ const HeroSection = () => {
               </div>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Link
-                  href="#"
+                  href="http://www.signagebot.com"
                   className="rounded-full bg-brand_violet px-6 py-1.5 text-base font-semibold leading-7 bg-brand_blue text-white shadow-sm hover:bg-brand_blue/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get started

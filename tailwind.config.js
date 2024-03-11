@@ -18,6 +18,12 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      screens: {
+        // Custom screen size example
+        // custom: "1440px", // Adds a 'custom' breakpoint
+        // Example to override an existing size
+        sm: "760px", // Overrides the default 'xl' breakpoint
+      },
     },
   },
   plugins: [],

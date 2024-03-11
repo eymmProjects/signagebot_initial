@@ -32,11 +32,11 @@ const Navbar = ({ className }) => {
         onMouseLeave={() => {
           setHovering(null);
         }}
-        className="flex items-center mx-auto top-0 z-50  lg:justify-center sm:justify-between justify-between flex-1  p-2"
+        className="flex items-center justify-between p-6 lg:px-8 "
         aria-label="Global"
       >
         {/* left */}
-        <div className="flex max-w-screen-2xl mr-5  justify-start lg:w-0 lg:flex-1 ">
+        <div className="flex lg:flex-1 ">
           <div className="flex-between mx-auto w-full  max-w-screen-2xl px-2 xs:px-2 sm:px-4">
             <Link href="/">
               <Image src={Logo} width={150} height={40} alt="JSM logo" />
@@ -76,7 +76,7 @@ const Navbar = ({ className }) => {
 
         {/*  */}
         {/* center */}
-        <div className="hidden text-white  lg:flex   md:flex justify-center flex-1 ">
+        <div className="sm:hidden   lg:flex   md:flex justify-center flex-1 ">
           <div className="hidden text-white justify-center flex-1 lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <Link
@@ -111,7 +111,7 @@ const Navbar = ({ className }) => {
               </svg>
             </Link>
           </div>
-          <div className="  absolute  justify-end flex-1 md:flex items-center sm:static sm:inset-auto sm:pr-0 flex lg:hidden  lg:w-0 space-x-4    ">
+          <div className="    justify-end flex-1 md:flex items-center sm:static sm:inset-auto sm:pr-0 flex lg:hidden  lg:w-0 space-x-4    ">
             <button
               type="button"
               className=" -m-2.5   items-center  rounded-md justify-between p-2.5 text-gray-600"
