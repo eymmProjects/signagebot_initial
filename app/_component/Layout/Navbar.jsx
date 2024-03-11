@@ -89,7 +89,7 @@ const Navbar = ({ className }) => {
               </Link>
             ))}
             <Link
-              href="#"
+              href="https://www.signagebot.com"
               className="flex nav-item text-white mt-2 text-center mb-2 justify-center text-xs"
               onMouseEnter={() => {
                 setHovering(true);

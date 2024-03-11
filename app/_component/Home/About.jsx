@@ -79,12 +79,6 @@ export default function BannerAbout() {
             dedicated to delivering solutions that not only meet the needs of
             today but also anticipate the demands of tomorrow.
           </p>
-          {/* <p className="mt-6 text-lg leading-8 text-gray-300">
-            Today, thousands of teams around the globe — from early-stage
-            startups to public companies — use Linear to build their products.
-            Linear helps them to focus on what they do best: Crafting software
-            experiences that feel magical again.
-          </p> */}
         </div>
         <div className="mx-auto mt-16 flex max-w-xl sm:mt-24 lg:ml-10 lg:mt-0 lg:mr-0 lg:max-w-md lg:flex-none xl:ml-32">
           <div className="absolute bottom-0 h-60 w-full xl:inset-0 xl:h-full">
@@ -99,16 +93,6 @@ export default function BannerAbout() {
                   aria-hidden="true"
                   className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-primary xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"
                 />
-
-                <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
-                  <Image
-                    className="w-full"
-                    // src={feature.image}
-                    alt=""
-                    priority
-                    sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem"
-                  />
-                </div>
               </div>
             </div>
           </div>
